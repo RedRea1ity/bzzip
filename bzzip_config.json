@@ -1,0 +1,12 @@
+{
+  "anomaly_enabled": true,
+  "bee_detection_enabled": true,
+  "simplify_enabled": true,
+  "accumulation_enabled": true,
+  "dialogue_enabled": true,
+  "sound_enabled": false,
+  "sound_path": "",
+  "empty_threshold": 10,
+  "corrupt_probability": 0.5,
+  "temp_dir": ""
+}

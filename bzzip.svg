@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="box" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef3f9"/>
+      <stop offset="1" stop-color="#b3c0d3"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe066"/>
+      <stop offset="1" stop-color="#f0a800"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 压缩包 -->
+  <rect x="4" y="32" width="36" height="24" rx="3" fill="url(#box)" stroke="#5f6f85" stroke-width="1.5"/>
+  <line x1="5" y1="40" x2="39" y2="40" stroke="#5f6f85" stroke-width="1"/>
+  <rect x="5.8" y="32.8" width="34.4" height="6.4" rx="2.2" fill="#ffffff" fill-opacity="0.45"/>
+
+  <!-- 拉链 -->
+  <line x1="22" y1="40" x2="22" y2="55" stroke="#45536b" stroke-width="2" stroke-dasharray="2.6 1.8"/>
+  <circle cx="22" cy="48.5" r="1.7" fill="none" stroke="#8a6d00" stroke-width="1.1"/>
+  <rect x="19.6" y="49.6" width="4.8" height="6" rx="1.4" fill="#f5b400" stroke="#8a6d00" stroke-width="1"/>
+
+  <!-- 飞行轨迹 -->
+  <path d="M 31 30 Q 33.5 21 36.5 15.5" fill="none" stroke="#f5b400"
+        stroke-width="1.6" stroke-dasharray="1.8 2.8" stroke-linecap="round"/>
+
+  <!-- 蜜蜂 -->
+  <g transform="translate(46,15) rotate(-14)">
+    <!-- 翅膀 -->
+    <ellipse cx="1.5" cy="-6.5" rx="4" ry="5.6" fill="#dbeeff" fill-opacity="0.7"
+             stroke="#8fb8d8" stroke-width="1" transform="rotate(24 1.5 -6.5)"/>
+    <ellipse cx="-2.5" cy="-7" rx="4.6" ry="6.2" fill="#e8f4ff" fill-opacity="0.9"
+             stroke="#8fb8d8" stroke-width="1" transform="rotate(-16 -2.5 -7)"/>
+    <!-- 身体 -->
+    <ellipse cx="0" cy="0" rx="9" ry="6.4" fill="url(#body)" stroke="#6b5200" stroke-width="1.2"/>
+    <!-- 条纹 -->
+    <path d="M -2.5 -6.1 Q -0.8 0 -2.5 6.1" stroke="#3a2c00" stroke-width="2.6" fill="none"/>
+    <path d="M 3 -5.6 Q 4.6 0 3 5.6" stroke="#3a2c00" stroke-width="2.6" fill="none"/>
+    <!-- 尾刺 -->
+    <path d="M -9 0 L -13.2 -0.6 L -9 2.2 Z" fill="#3a2c00"/>
+    <!-- 头 -->
+    <circle cx="9.2" cy="0" r="3.5" fill="#3a2c00"/>
+    <circle cx="10.2" cy="-1.2" r="0.9" fill="#ffffff"/>
+    <!-- 触角 -->
+    <path d="M 11 -2.2 Q 14 -6 16.5 -6.6" stroke="#3a2c00" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+    <path d="M 11.2 -0.8 Q 15 -3.4 17.6 -2.8" stroke="#3a2c00" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
